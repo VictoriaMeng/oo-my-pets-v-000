@@ -24,6 +24,5 @@ class Owner
     "I am a #{species}."
   end
 
-  def name
-  end
+
 end
