@@ -1,11 +1,15 @@
 class Owner
   # code goes here
-  @@owners = []
+  @@all = []
 
   def initialize
   end
 
-  def all
-    @@owners
+  def self.all
+    @@all
+  end
+
+  def self.count
+    self.all.size
   end
 end
