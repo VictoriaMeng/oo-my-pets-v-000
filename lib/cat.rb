@@ -1,4 +1,5 @@
 class Cat
-  def initialize
+  def initialize(name)
+    @name = name.freeze
   end
 end
